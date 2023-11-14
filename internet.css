@@ -1,0 +1,530 @@
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--alice-color);
+      user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      padding: 0;
+      margin: 0;
+      animation: fade-in 2s linear;
+    }
+
+    button,
+    button:hover,
+    button:focus {
+      border: none !important;
+      outline: none !important;
+    }
+
+    a,
+    a:hover,
+    a:focus {
+      border: none !important;
+      outline: none !important;
+      text-decoration: none;
+    }
+
+    .my-header {
+      background: var(--my-color);
+      width: 100%;
+      left: 0;
+      top: 0;
+      position: fixed;
+      z-index: 1;
+      height: 80px;
+      border-radius: 0px 0px 35px 35px;
+    }
+
+    .my-box {
+      background: var(--white-color);
+      padding: 20px;
+      padding-bottom: 15px;
+      padding-top: 10px;
+      border-radius: 10px;
+      position: relative;
+      z-index: 100;
+      top: 15px;
+      margin-bottom: 15px;
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    }
+
+    .icon-sc img {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .t-name h5 {
+      font-size: 14px;
+      color: var(--my-color);
+      margin-bottom: 0px;
+      margin-top: 0px;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    #nohp::placeholder {
+      font-weight: 400;
+    }
+
+    #nohp {
+      border: 2px solid #e0e0e0;
+      font-size: 17px;
+      font-weight: 600;
+      border-radius: 10px;
+    }
+
+    #nohp:focus {
+      box-shadow: none;
+      border: 2px solid var(--my-color);
+    }
+
+    .fa-info-circle {
+      margin-right: 5px;
+    }
+
+    .fa-list {
+      margin-right: 10px;
+    }
+
+    #addon_pulsa img {
+      width: 35px;
+      margin-right: 5px;
+      border-radius: 10px;
+      background: white;
+      padding: 5px;
+      margin-left: -5px;
+    }
+
+    .contact i {
+      font-size: 25px;
+      color: var(--my-color);
+      margin-left: 8px;
+    }
+
+    .labeling {
+      font-size: 11px;
+      background: white;
+      position: absolute;
+      left: 55px;
+      top: -8px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    select,
+    select:focus,
+    select:hover {
+      box-shadow: 0px 0px 0px 0px !important;
+    }
+
+    .box {
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    }
+
+    .box p {
+      font-size: 14px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+
+    .box select {
+      background-color: var(--white-color);
+      color: var(--black-color);
+      padding: 10px;
+      border: 2px solid #e0e0e0;
+      width: 100%;
+      font-size: 14px;
+      border-radius: 10px;
+      outline: none;
+      margin-bottom: 10px;
+    }
+
+    .box::before {
+      content: "";
+      font-family: FontAwesome;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 20%;
+      text-align: center;
+      font-size: 14px;
+      line-height: 45px;
+      padding: 5px;
+      color: var(--white-color);
+      pointer-events: none;
+      margin-bottom: 10px;
+    }
+
+    .box:hover::before {
+      color: rgba(255, 255, 255, 0.6);
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .box select option {
+      padding: 10px;
+    }
+
+    .d-flex {
+      align-items: center;
+    }
+
+    #no_tujuan {
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 100px;
+    }
+
+    .error-message {
+      color: red;
+      margin-left: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .codingasik-produk,
+    .codingasik-produk:hover,
+    .codingasik-produk:focus {
+      background: var(--white-color);
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    .img-produk {
+      width: 40px;
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+
+    .nama-item {
+      width: 100%;
+      text-align: left;
+      color: var(--black-color);
+      font-size: 14px;
+      margin: 0px;
+      font-weight: 700;
+    }
+
+    .harga-item {
+      margin: 0px;
+      font-weight: 600;
+      color: var(--my-color);
+      font-size: 13px;
+    }
+
+    .kosong {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    .kosong img {
+      width: 150px !important;
+    }
+
+    .t-ket p {
+      font-size: 14px;
+      margin-bottom: 3px;
+      margin-top: 4px;
+    }
+
+    .t-det p {
+      font-size: 14px;
+      margin-bottom: 4px;
+      margin-top: 4px;
+    }
+
+    .coloading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-top: 75% !important;
+      width: 100%;
+      z-index: 100000000;
+    }
+
+    #fake {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .input-serch {
+      border: 2px solid #f1f1f1;
+      border-radius: 10px;
+      padding-right: 10px;
+      margin-right: 10px;
+      width: 100%;
+      background: white;
+    }
+
+    .input-serch:hover,
+    .input-serch:focus {
+      border: 2px solid var(--my-color);
+      border-radius: 10px;
+      padding-right: 10px;
+      margin-right: 10px;
+      width: 100%;
+      background: white;
+    }
+
+    .input-serch input {
+      border: none !important;
+      background: transparent;
+      color: black;
+      outline: none;
+      font-size: 14px;
+    }
+
+    /* CSS untuk mode tampilan grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1.5fr);
+      grid-gap: 5px;
+      align-items: center;
+      margin-bottom: -10px !important;
+    }
+
+    .grid-container .text-diskon {
+      display: none;
+    }
+
+    .linexx {
+      border-top: 3px dotted #e0e0e0;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .arrow i {
+      color: var(--gray-color);
+    }
+
+    .loading {
+      --speed-of-animation: 0.9s;
+      --gap: 6px;
+      --first-color: #4c86f9;
+      --second-color: #49a84c;
+      --third-color: #f6bb02;
+      --fourth-color: #f6bb02;
+      --fifth-color: #0093ce;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 6px;
+      z-index: 100000000;
+      z-index: 0;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    .loading span {
+      z-index: 0;
+      width: 6px;
+      height: 50px;
+      position: relative;
+      background: var(--first-color);
+      animation: scale var(--speed-of-animation) ease-in-out infinite;
+    }
+
+    .loading span:nth-child(2) {
+      background: var(--second-color);
+      animation-delay: -0.8s;
+    }
+
+    .loading span:nth-child(3) {
+      background: var(--third-color);
+      animation-delay: -0.7s;
+    }
+
+    .loading span:nth-child(4) {
+      background: var(--fourth-color);
+      animation-delay: -0.6s;
+    }
+
+    .loading span:nth-child(5) {
+      background: var(--fifth-color);
+      animation-delay: -0.5s;
+    }
+
+    @keyframes scale {
+
+      0%,
+      40%,
+      100% {
+        transform: scaleY(0.05);
+      }
+
+      20% {
+        transform: scaleY(1);
+      }
+    }
+
+    .offcanvas {
+      height: auto !important;
+      padding-bottom: 10px;
+
+      border: none !important;
+      background: transparent !important;
+    }
+
+    .offcanvas-body {
+      border: none !important;
+      padding-top: 50px !important;
+    }
+
+
+
+    .borders {
+      padding: 5px;
+      color: var(--white-color);
+      background: var(--my-color);
+      font-size: 14px;
+      border-radius: 0px 0px 25px 25px;
+      text-align: center;
+      width: auto;
+      font-weight: 500;
+      margin-bottom: 20px;
+
+    }
+
+    .harga-pop {
+      border-bottom: 3px dotted #e0e0e0;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+
+    .harga-pop p {
+      font-size: 13px;
+      color: black;
+      margin: 0px;
+    }
+
+    .harga-pop h5 {
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0px;
+    }
+
+    .btn-ubah {
+      background: var(--gray-color);
+      color: var(--white-color);
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .btn-beli {
+      background: var(--my-color);
+      color: var(--white-color);
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .box-details {
+      padding: 15px;
+      padding-top: 0px;
+      background: var(--white-color);
+      border-top: 5px solid var(--my-color);
+      border-radius: 15px !important;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+
+    .icon-detail {
+      text-align: center;
+      border-bottom: 3px dashed #f1f1f1;
+      padding-bottom: 7px;
+      margin-bottom: 5px;
+    }
+
+    .icon-detail img {
+      width: 60px;
+      border-radius: 100px;
+      background: white;
+      padding: 5px;
+      position: relative;
+      top: -25px;
+      border: 2px solid var(--my-color);
+    }
+
+    .icon-detail p {
+      font-size: 14px;
+      font-weight: bold;
+      color: var(--my-color);
+      margin-top: -20px;
+    }
+
+
+    .detail-pembelian {
+      padding: 15px;
+      border-radius: 10px;
+      border: 2px dashed var(--my-color);
+    }
+
+    .detail-pembelian h5 {
+      font-size: 13px;
+      font-weight: bold;
+      color: var(--my-color);
+    }
+
+    .detail-pembelian h6 {
+      font-size: 13px;
+      font-weight: 500;
+      color: black;
+      margin-bottom: 0px !important;
+    }
+
+    #space {
+      width: 20px;
+    }
+
+    #linkBeli {
+      width: 100%;
+    }
+
+    .btn-beli {
+      background: var(--my-color);
+      color: var(--white-color);
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    #full-text {
+      margin-bottom: 0px;
+    }
+      .diskon{
+  color: white;
+  background: var(--orange-color);
+   font-size: 10px !important;
+   font-weight: 500;
+   margin: 0px;
+   margin-left: 10px !important;
+   text-align: left;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 100px;
+  }
