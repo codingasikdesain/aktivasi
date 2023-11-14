@@ -154,7 +154,7 @@ $('#nohp').on('input', function () {
           $('#fake').html('')
           if (response.data.length !== 0) {
             $.each(response.data, function (i, v) {
-              $('#data').append('<button class="codingasik-produk" id="btn-link" onclick="getDetail(\'' + v.links + '\')"><div class="w-100"><p id="prod-name" class="text-start name nama-item">' + v.names + '</p><p class="m-0 text-start harga-item">' + v.prices + '</p></div><div class="arrow"><i class="fas fa-angle-right"></i></div> </button>')
+              $('#data').append('<button class="codingasik-produk" id="btn-link" onclick="getDetail(\'' + v.links + '\')"><img class="d-block img-produk" src="' + v.img + '"><div class="w-100"><p id="prod-name" class="text-start name nama-item">' + v.names + '</p><p class="m-0 text-start harga-item">' + v.prices + '</p></div><div class="arrow"><i class="fas fa-angle-right"></i></div> </button>')
             });
           } else {
             $('#data').html("<div class='d-grid'><div class= 'container text-center' > Produk Belum Tersedia Saat Ini, kami akan segera menambahkan untuk anda. </div > ")
